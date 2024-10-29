@@ -1,0 +1,58 @@
+
+@import url("/assets/styles/reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Manrope:wght@400;700&family=Outfit:wght@400;700&display=swap');
+@import url("styles/header.css");
+@import url("/assets/styles/main.css");
+
+:root {
+    --common-font-one: 'Fraunces', serif;
+    --common-font-two: 'Manrope', sans-serif;
+    --primary-color: #24053e;
+    --secondary-color: #44ffa1;
+    --davy-grey-color: #584d62;
+    --ghost-white-color: #fcf8ff;
+    --white-color: #ffffff;
+    
+    --heading-l-font-size: 80px;
+    --heading-m-font-size: 56px;
+    --heading-s-font-size: 32px;
+    --body-font-size: 18px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--common-font-one);
+}
+
+
+
+header {
+    background-image: url(/assets/images/Rectangle.svg);
+    background-size: 102% auto;
+    background-repeat: no-repeat;
+    z-index: -1;
+    color: var(--ghost-white-color)
+}
+
+
+/* Apply for access 
+
+position: absolute;
+width: 125px;
+height: 32px;
+left: calc(50% - 125px/2 + 0.5px);
+top: calc(50% - 32px/2 - 1px);
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 32px;
+identical to box height, or 200% 
+letter-spacing: -0.16px;
+*/
+
+
+
