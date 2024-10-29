@@ -5,30 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="/assets/styles.css">
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./styles.css">
   
   <title>Frontend Mentor | Workit landing page</title>
 </head>
 <body>
   <header class="header">
-    <nav class="nav">
-      <img src="/assets/images/logo-light.svg" alt="Workit logo" class="workit--logo">
-      <p class="apply__link">
-        <ins class="underline">Apply for access</ins>
-      </p>
-    </nav>
-
-    <div class="header__container">
-      <h1 class="header__h">
-        Data <ins class="underline">tailored</ins> to your needs.
-      </h1>
-      <button>Lear more</button>
+    <div class="header-container">
+      <nav class="nav">
+        <img src="/assets/images/logo-light.svg" alt="Workit logo" class="workit--logo">
+        <p class="apply__link">
+          <ins class="underline">Apply for access</ins>
+        </p>
+      </nav>
+      <div class="header__content">
+        <h1 class="header__title">
+          Data <ins class="underline">tailored</ins> to your needs.
+        </h1>
+        <a class="call__to__action__btn">Learn more</a>
+      </div>
+      <img src="/assets/images/image-hero.webp" aria-hidden="true" alt="" class="image-hero">
     </div>
-    <img src="/assets/images/image-hero.webp" alt="Smartphone" class="image-hero">
   </header>
 
   <main class="main">
-    <div class="main-content">
+    <section class="main-content">
       <dl>
         <dt class="main-content__list__number">1</dt>
           <dd class="main-content__heading">Actionable insights</dd>
@@ -40,16 +42,26 @@
           <dd class="main-content__heading">Always affordable</dd>
           <dd class="main-content__p">Always affordable pricing that scales with your business. Get top-quality product data analytics services without hidden costs or unexpected fees.</dd>
       </dl>
-    </div>
-
-    <section class="main__section">
       <img src="/assets/images/image-founder.webp" alt="Workit Founder" class="image-founder">
+    </section>
+
+    <div class="main__section">
+
       <div class="main__section__content">
         <p class="main__section__content-heading">Be the first to test</p>
         <p class="main__section__content-p">Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to become a beta tester for our app and kickstart your company. Apply for access below and I'll be in touch to schedule a call.</p>
-        <button class="main__section__content-button">Apply for access</button>
+        <a class="call__to__action__btn">Apply for access</a>
       </div>
-    </section>
+    </div>
   </main>
+
+  <footer>
+    <img src="./assets/images/logo-dark.svg" alt="Workit Logo" class="workit__logo__dark">
+    <div class="social__media">
+      <img src="./assets/images/icon-facebook.svg" alt="Link to Facebook" class="social__media__icon">
+      <img src="./assets/images/icon-twitter.svg" alt="Link to Twitter" class="social__media__icon">
+      <img src="./assets/images/icon-instagram.svg" alt="Link to Instagram" class="social__media__icon">
+    </div>
+  </footer>
 </body>
 </html>
